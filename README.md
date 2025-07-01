@@ -60,7 +60,7 @@ src/
 
 ```bash
 git clone https://github.com/your-username/github-searcher.git
-cd github-searcher
+cd github-search
 ````
 
 ### 2. Install dependencies
@@ -73,10 +73,6 @@ npm install
 
 ```bash
 npm run dev
-```
 
-Open your browser and visit: `http://localhost:5173`
-
-```
 
 
