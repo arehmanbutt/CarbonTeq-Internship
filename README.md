@@ -1,3 +1,4 @@
+![Dark Mode Screenshot](/Dark_Mode.png)
 
 # GitHub Searcher
 
