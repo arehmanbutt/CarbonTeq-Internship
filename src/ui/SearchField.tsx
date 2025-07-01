@@ -19,27 +19,6 @@ export default function SearchField({ value, onChange }: SearchFieldProps) {
         placeholder="Search or jump to..."
         value={value}
         onChange={onChange}
-        sx={{
-          "& .MuiInputBase-root": {
-            backgroundColor: "var(--bg-color)",
-            color: "var(--text-color)",
-          },
-          "& .MuiOutlinedInput-root": {
-            "& fieldset": {
-              borderColor: "var(--text-color)",
-            },
-            "&:hover fieldset": {
-              borderColor: "var(--text-color",
-            },
-            "&.Mui-focused fieldset": {
-              borderColor: "var(--text-color)",
-            },
-          },
-          "& .MuiInputBase-input": {
-            color: "var(--text-color)",
-            padding: "10px 14px",
-          },
-        }}
       />
     </Box>
   );

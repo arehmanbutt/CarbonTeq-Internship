@@ -3,6 +3,7 @@ import whiteLogo from "../assets/github-white-logo.png";
 import "../styles/Header.css";
 import Themes from "./Themes";
 import { useThemeMode } from "../ThemeProvider";
+import { Typography } from "@mui/material";
 
 const Header = () => {
   const { isLight, toggleTheme } = useThemeMode();
@@ -16,8 +17,10 @@ const Header = () => {
           alt="GitHub Logo"
         />
         <div className="heading">
-          <h2>GitHub Searcher</h2>
-          <p>Search users or repositories below</p>
+          <Typography variant="h2">GitHub Searcher</Typography>
+          <Typography variant="subtitle1">
+            Search users or repositories below
+          </Typography>
         </div>
       </div>
       <div className="switch-theme-btn">
