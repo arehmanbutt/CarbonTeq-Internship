@@ -1,4 +1,3 @@
-
 ```markdown
 # 🔍 GitHub Searcher
 
@@ -8,30 +7,38 @@ A modern and responsive web app to search GitHub **users** and **repositories** 
 
 ## 📸 Screenshots
 
----
+### 👤 User Search Mode
 
-## Features
+![User Search](./screenshots/github-users.png)
 
-- Search GitHub **users** and **repositories** live
-- **Dark/Light mode** toggle using MUI Switch
-- Debounced input for optimized performance
-- Display user/repo info with MUI Cards
-- Direct link to GitHub profile or repo
-- Responsive design with modern UI
+### 📁 Repository Search Mode
+
+![Repository Search](./screenshots/github-repos.png)
 
 ---
 
-## Tech Stack
+## 🚀 Features
+
+- 🔍 Search GitHub **users** and **repositories** live
+- 🌗 **Dark/Light mode** toggle using MUI Switch
+- ⌨️ Debounced input for optimized performance
+- 📦 Display user/repo info with MUI Cards
+- 📎 Direct link to GitHub profile or repo
+- 💡 Responsive design with modern UI
+
+---
+
+## 🛠️ Tech Stack
 
 - **React** + **TypeScript**
 - **Vite** (for dev server and build)
 - **Material UI (MUI)** – for buttons, inputs, dropdowns, cards, and theming
 - **Fetch API** – for making REST API calls to GitHub
-- **CSS Modules** for layout
+- **CSS Modules** or inline styles for layout
 
 ---
 
-## Purpose & Learnings
+## 🧠 Purpose & Learnings
 
 This project helped me:
 
@@ -43,7 +50,7 @@ This project helped me:
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
 
@@ -59,7 +66,7 @@ src/
 
 ---
 
-## Getting Started
+## 🧪 Getting Started
 
 ### 1. Clone the repository
 
@@ -79,3 +86,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+Open your browser and visit: `http://localhost:5173`
+
+---
+
+```
+
+
