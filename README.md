@@ -43,14 +43,14 @@ This project helped me:
 ```
 
 src/
-├── components/          # Reusable UI components (SearchField, ThemeToggle, ResultCard)
-├── hooks/               # Custom hooks (e.g., useDebounce)
-├── utils/               # Helper functions
-├── types/               # TypeScript interfaces/types
-├── App.tsx              # Main app structure and routing
-└── main.tsx             # Entry point
+├── components/    # Reusable core components (e.g. Header, SearchBar, UserCard, RepoCard)
+├── ui/            # Smaller UI elements like dropdowns and input fields (SearchField, DropDown)
+├── styles/        # CSS files scoped to specific components
+├── App.tsx        # Root component containing main layout and logic
+├── main.tsx       # Entry point to render the React app
+└── vite-env.d.ts  # Vite and TypeScript environment declarations
 
-````
+```
 
 ---
 
