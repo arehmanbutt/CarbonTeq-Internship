@@ -1,5 +1,5 @@
 
-# 🔍GitHub Searcher
+# GitHub Searcher
 
 A modern and responsive web app to search GitHub **users** and **repositories** using the GitHub REST API. Built with **React** and **TypeScript**, this project features a clean UI, theme toggle (Dark/Light), and efficient debounced search. All UI elements are built using **Material UI (MUI)** components, and API requests are handled using the native `fetch` API.
 
@@ -10,7 +10,7 @@ A modern and responsive web app to search GitHub **users** and **repositories** 
 - 🔍 Search GitHub **users** and **repositories** live
 - 🌗 **Dark/Light mode** toggle using MUI Switch
 - ⌨️ Debounced input for optimized performance
-- 📦 Display user/repo info with MUI Cards
+- 📦 Display user/repo info with Cards
 - 📎 Direct link to GitHub profile or repo
 - 💡 Responsive design with modern UI
 
@@ -59,7 +59,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/github-searcher.git
+git clone https://github.com/your-username/github-search.git
 cd github-search
 ````
 
