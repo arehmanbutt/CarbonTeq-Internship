@@ -1,60 +1,81 @@
-# CarbonTeq-Internship
-# GitHub Searcher
 
-A sleek and responsive web app to search GitHub **users** and **repositories** using the GitHub REST API. Built with **React** and **TypeScript**, this project demonstrates API integration, theme toggling, debounced input handling, and dynamic rendering of GitHub data.
+```markdown
+# 🔍 GitHub Searcher
+
+A modern and responsive web app to search GitHub **users** and **repositories** using the GitHub REST API. Built with **React** and **TypeScript**, this project features a clean UI, theme toggle (Dark/Light), and efficient debounced search. All UI elements are built using **Material UI (MUI)** components, and API requests are handled using the native `fetch` API.
 
 ---
 
-## Screenshots
-
-### User Search Mode
-
-![User Search](./screenshots/github-users.png)
-
-### Repository Search Mode
-
-![Repository Search](./screenshots/github-repos.png)
+## 📸 Screenshots
 
 ---
 
 ## Features
 
-- Search GitHub **users** and **repositories** with live results
-- Toggle between **Dark** and **Light** themes
-- Debounced search input to optimize API calls
-- Dynamic rendering of user cards and repo cards
-- View GitHub profiles and repositories directly
-- Clean, responsive UI
+- Search GitHub **users** and **repositories** live
+- **Dark/Light mode** toggle using MUI Switch
+- Debounced input for optimized performance
+- Display user/repo info with MUI Cards
+- Direct link to GitHub profile or repo
+- Responsive design with modern UI
 
 ---
 
 ## Tech Stack
 
-- **React** (with Hooks)
-- **TypeScript**
-- **Vite** (for development & build)
-- **Axios** (for API requests)
-- **CSS Modules** or **Tailwind CSS** (based on setup)
+- **React** + **TypeScript**
+- **Vite** (for dev server and build)
+- **Material UI (MUI)** – for buttons, inputs, dropdowns, cards, and theming
+- **Fetch API** – for making REST API calls to GitHub
+- **CSS Modules** for layout
 
 ---
 
-## Purpose & Learning Goals
+## Purpose & Learnings
 
-This project was created to:
+This project helped me:
 
-- Strengthen React & TypeScript skills
-- Learn API handling and debounced user input
-- Practice responsive UI design
-- Understand theme toggling logic
-- Implement reusable, maintainable components
+- Practice **React + TypeScript** component structuring
+- Implement **theme switching** with MUI
+- Work with **GitHub REST API** using `fetch`
+- Use **debouncing** to limit unnecessary API calls
+- Design and layout responsive UIs with **Material UI**
 
 ---
 
 ## Folder Structure
+
+```
+
 src/
-├── components/ # UI components like SearchField, ToggleButton, ResultCard
-├── hooks/ # Custom hooks (e.g., useDebounce)
-├── services/ # Axios API service functions
-├── types/ # TypeScript types and interfaces
-├── App.tsx # Main app component
-└── main.tsx # React root render via Vite
+├── components/          # Reusable UI components (SearchField, ThemeToggle, ResultCard)
+├── hooks/               # Custom hooks (e.g., useDebounce)
+├── utils/               # Helper functions
+├── types/               # TypeScript interfaces/types
+├── App.tsx              # Main app structure and routing
+└── main.tsx             # Entry point
+
+````
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/github-searcher.git
+cd github-searcher
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
