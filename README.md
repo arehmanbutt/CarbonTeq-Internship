@@ -2,12 +2,12 @@
   <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/dark_mode.png" width="800" alt="Dark Mode Screenshot" />
 </p>
 <p align="center">
-  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/light_mode.png" width="800" alt="Dark Mode Screenshot" />
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/white_mode.png" width="800" alt="Dark Mode Screenshot" />
 </p>
 
 
 
-# GitHub Searcher
+# GitHub Search
 
 A modern and responsive web app to search GitHub **users** and **repositories** using the GitHub REST API. Built with **React** and **TypeScript**, this project features a clean UI, theme toggle (Dark/Light), and efficient debounced search. All UI elements are built using **Material UI (MUI)** components, and API requests are handled using the native `fetch` API.
 
