@@ -1,0 +1,46 @@
+.user-card {
+  background-color: #adadad;
+  color: var(--text-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 1rem;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.avatar {
+  height: 8.5rem;
+  width: 8.5rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border: 2px solid #000;
+}
+
+.user-card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.user-card a {
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 6px;
+}
+.user-card a:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}

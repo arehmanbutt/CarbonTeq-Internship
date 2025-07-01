@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: var(--bg-color);
+  margin-left: 2rem;
+}
+.logo {
+  height: 55px;
+  width: 55px;
+  margin-right: 1rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading h2 {
+  font-size: 1.6rem;
+}
+.heading p {
+  font-size: 0.9rem;
+}
+.switch-theme-btn {
+  margin-left: 6.5rem;
+}
+
+.switch-theme-btn:hover {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}

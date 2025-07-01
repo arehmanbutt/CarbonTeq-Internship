@@ -1,0 +1,16 @@
+.results-grid {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);  */
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+}
+@media (max-width: 768px) {
+  .results-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 fixed columns */
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
