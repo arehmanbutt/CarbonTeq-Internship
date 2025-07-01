@@ -1,6 +1,5 @@
 .user-card {
   background-color: #adadad;
-  color: var(--text-color);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 2rem 1.5rem;
@@ -35,12 +34,6 @@
   text-decoration: none;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: var(--bg-color);
-  color: var(--text-color);
   border: none;
   border-radius: 6px;
-}
-.user-card a:hover {
-  background-color: var(--text-color);
-  color: var(--bg-color);
 }

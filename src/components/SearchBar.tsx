@@ -16,13 +16,6 @@ const SearchBar = ({
   handleDropDownChange,
   handleSearchFieldChange,
 }: SearchBarProps) => {
-  // no extra methods should be here
-  // make handleChangefunction in container
-
-  // dark mode light mode using material ui
-
-  // study about storybook and mdx
-
   return (
     <div className="parent">
       <div className="search">
