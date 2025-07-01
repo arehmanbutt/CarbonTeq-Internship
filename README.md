@@ -5,18 +5,6 @@ A modern and responsive web app to search GitHub **users** and **repositories** 
 
 ---
 
-## 📸 Screenshots
-
-### 👤 User Search Mode
-
-![User Search](./screenshots/github-users.png)
-
-### 📁 Repository Search Mode
-
-![Repository Search](./screenshots/github-repos.png)
-
----
-
 ## 🚀 Features
 
 - 🔍 Search GitHub **users** and **repositories** live
