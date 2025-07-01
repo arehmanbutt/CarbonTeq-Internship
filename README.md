@@ -1,5 +1,5 @@
-```markdown
-# 🔍 GitHub Searcher
+
+# 🔍GitHub Searcher
 
 A modern and responsive web app to search GitHub **users** and **repositories** using the GitHub REST API. Built with **React** and **TypeScript**, this project features a clean UI, theme toggle (Dark/Light), and efficient debounced search. All UI elements are built using **Material UI (MUI)** components, and API requests are handled using the native `fetch` API.
 
@@ -88,8 +88,6 @@ npm run dev
 ```
 
 Open your browser and visit: `http://localhost:5173`
-
----
 
 ```
 
