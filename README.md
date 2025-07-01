@@ -1,4 +1,7 @@
-![Dark Mode Screenshot](/src/Dark_Mode.png)
+<p align="center">
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/Dark_Mode.png" width="700" alt="Dark Mode Screenshot" />
+</p>
+
 
 # GitHub Searcher
 
