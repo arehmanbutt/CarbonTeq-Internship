@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/Dark_Mode.png" width="700" alt="Dark Mode Screenshot" />
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/dark_mode.png" width="800" alt="Dark Mode Screenshot" />
 </p>
+<p align="center">
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/light_mode.png" width="800" alt="Dark Mode Screenshot" />
+</p>
+
 
 
 # GitHub Searcher
