@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/dark_mode.png" width="800" alt="Dark Mode Screenshot" />
-</p>
-<p align="center">
-  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/white_mode.png" width="800" alt="Dark Mode Screenshot" />
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/dark_mode.png" width="400" alt="Dark Mode Screenshot" style="display:inline-block; margin-right: 10px;" />
+  <img src="https://github.com/arehmanbutt/CarbonTeq-Internship/raw/main/public/white_mode.png" width="400" alt="Light Mode Screenshot" style="display:inline-block;" />
 </p>
 
 
