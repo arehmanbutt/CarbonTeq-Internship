@@ -5,20 +5,17 @@ import type { SelectChangeEvent } from "@mui/material/Select";
 
 type SearchBarProps = {
   searchQuery: string;
-  setSearchQuery: (value: string) => void;
   searchType: string;
-  setSearchType: (value: string) => void;
+  handleDropDownChange: (e: SelectChangeEvent) => void;
+  handleSearchFieldChange: (e: SelectChangeEvent) => void;
 };
 
 const SearchBar = ({
   searchQuery,
-  setSearchQuery,
   searchType,
-  setSearchType,
+  handleDropDownChange,
+  handleSearchFieldChange,
 }: SearchBarProps) => {
-  const handleDropdownChange = (e: SelectChangeEvent) => {
-    setSearchType(e.target.value);
-  };
   // no extra methods should be here
   // make handleChangefunction in container
 
@@ -30,13 +27,10 @@ const SearchBar = ({
     <div className="parent">
       <div className="search">
         <div className="search-bar">
-          <SearchField
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
+          <SearchField value={searchQuery} onChange={handleSearchFieldChange} />
         </div>
         <div className="dropdown-bar">
-          <Dropdown value={searchType} onChange={handleDropdownChange} />
+          <Dropdown value={searchType} onChange={handleDropDownChange} />
         </div>
       </div>
     </div>

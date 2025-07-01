@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 import SearchResults from "./SearchResults";
 import debounce from "lodash/debounce";
+import type { SelectChangeEvent } from "@mui/material/Select";
 
 const Container = () => {
   const [searchType, setSearchType] = useState("users");
@@ -34,14 +35,21 @@ const Container = () => {
 
     return () => debouncedGetResults.cancel();
   }, [searchQuery, searchType]);
+  // for searchbar
+  const handleDropDownChange = (e: SelectChangeEvent) => {
+    setSearchType(e.target.value);
+  };
+  const handleSearchFieldChange = (e: SelectChangeEvent) => {
+    setSearchQuery(e.target.value);
+  };
 
   return (
     <div>
       <SearchBar
         searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
         searchType={searchType}
-        setSearchType={setSearchType}
+        handleDropDownChange={handleDropDownChange}
+        handleSearchFieldChange={handleSearchFieldChange}
       />
       <SearchResults
         results={results}
